@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SMP INTERNATIONAL SCHOOL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,500;1,400;1,500&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/962299a5ff.js" ></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-main">
+        <nav>
+            <a href="index.html"> <img src="images/schoollogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="texti.html">WHAT OUR STUDENTS SAY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+</section> 
+<!-- Contact us lmao -->
+<section class="loaction">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.895197635925!2d78.3974877!3d17.368775300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb959556d6c1bd%3A0x1bb477e56860d209!2sSMP%20Model%20High%20School!5e0!3m2!1sen!2sin!4v1669986846805!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Sai Ram Nagar, Hydershakote, Hyderabad</h5>
+                </span>
+                
+            </div>
+            <div>
+                <i class="fa fa-mobile"></i>
+                <span>
+                    <h5>+918125168898, +918125168118</h5>
+                    <p5>Monday-Saturday, 8AM to 6PM</p5>
+                </span>
+                
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>smpschool@2002@gmail.com</h5>
+                    <p5>Email Us</p5>
+                </span>
+                
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="">
+                <input type="text" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Student Name" required>
+                <input type="text" placeholder="Enter Your Content" required>
+                <textarea rows="8" placeholder="Description" required></textarea>
+                <button3 type="submit" class="button1">SEND</button3>
+            </form>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+<!-- footer -->
+<footer>
+    <div class="row">
+        <div class="col">
+            <img src="images/schoollogo.png" class="logo">
+            <p>The website footer is the section of content at the very bottom of a web page. It typically contains a copyright notice, link to a privacy policy, sitemap,</p>
+        </div>
+        <div class="col">
+            <h3>ADDRESS <div class="underline"><span></span></div></h3>
+            <p>Sai Ram Nagar,</p>
+            <p>hydershakote,</p>
+            <p>Hyderabad</p>
+            <p class="email">smpschool2002@gmail.com</p>
+            <h8>+918125168898</h8>
+
+        </div>
+        <div class="col">
+            <h3>links <div class="underline"><span></span></div></h3>
+            <div class="social">
+                <a href="https://www.facebook.com/profile.php?id=100064086695599">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.youtube.com/@smpinternationalschool876/featured">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.edmatix.parent.smpmhs&hl=en">
+                <i class="fa-brands fa-google-play"></i>
+            </a>
+            </div>
+            
+
+        </div>
+        <hr class="lie">
+        <p class="copyright">SMP INTERNATIONAL © 2022 - All Rights Reserved</p>
+</footer>
+
+
+
+
+
+
+
+ <!--JS for switching-->
+<script>
+    var navLinks = document.getElementById('navLinks');
+    function showMenu(){
+        navLinks.style.right = "0";
+
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+
+    }
+
+
+
+</script>
+
+</body>
+</html>
